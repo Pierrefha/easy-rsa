@@ -1,8 +1,14 @@
 # Overview
 
 easy-rsa is a CLI utility to build and manage a PKI CA. In laymen's terms,
-this means to create a root certificate authority, and request and sign 
+this means to create a root certificate authority, and request and sign
 certificates, including intermediate CAs and certificate revocation lists (CRL).
+
+# My Notes
+
+I am using this fork for my docker openvpn one click container. Since I want
+to avoid it breaking because of changes to the current master branch, rather
+use this fork for downloading the easyrsa3 shell script.
 
 # Downloads
 
